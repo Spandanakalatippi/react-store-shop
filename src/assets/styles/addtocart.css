@@ -1,0 +1,61 @@
+.maincon {
+
+
+    h2 {
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 10%;
+        color: #4E342E;
+    }
+
+
+    table {
+        margin: 40px auto;
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        background-color: #fffaf3;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    thead {
+        background-color: #493632d5;
+        color: rgb(245, 232, 207);
+    }
+
+    th,
+    td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #4E342E;
+    }
+
+
+
+
+    tbody tr:hover {
+        background-color: #ecd8b5;
+    }
+
+
+    td img {
+        border-radius: 6px;
+        border: 1px solid #4E342E;
+    }
+
+
+    button {
+        padding: 8px 14px;
+        background-color: #493632d5;
+        color: rgb(245, 232, 207);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #3b2a24;
+    }
+}

@@ -1,0 +1,55 @@
+.addproducts{
+    .header{ color: lightblue;
+        margin-top: 30px;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        }
+
+    .formbox{
+        form{
+            border: solid 1px lightseagreen;
+            margin:50px auto;
+            width: 800px;
+            background: linear-gradient(lightseagreen,white);
+            box-shadow: 1px 1px 10px black;
+            input{
+                display: block;
+                margin:15px auto;
+                padding: 10px 130px;
+                color: rgb(47, 47, 234);
+                font-size: 2vh;
+                text-align: left;
+                border: none;
+            }
+            input:hover{
+                box-shadow: 1px 1px 10px black;
+            }
+            input:active{
+                border: none;
+            }
+            select{
+                display: block;
+                margin:20px auto;
+                padding: 10px 155px;
+                border: none;
+                font-size: 2vh;
+            }
+            button{
+                display: block;
+                margin:10px auto;
+                padding: 10px 50px;
+                border: solid 1px lightseagreen;
+                border-radius: 10px;
+                font-size: 3vh;
+                color:white;
+                background:lightseagreen;
+            }
+            button:hover{
+                box-shadow: 1px 1px 10px black;
+            }
+            button:active{
+                transform: scale(.9);
+            }
+        }
+    }
+}
